@@ -1,0 +1,182 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+   html {
+    line-height: 1.15; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Set a base font for better readability */
+    background-color:#a28089; /* Light background color for contrast */
+    color: #333; /* Text color for better readability */
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-align: center; /* Center the heading */
+    color: #e4e6ea; /* Change heading color */
+  }
+  
+ 
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: sans-serif; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+    padding: 10px; /* Add padding to inputs and buttons */
+    border-radius: 5px; /* Rounded corners for buttons and inputs */
+  }
+  
+  button {
+    
+    display: cover;
+    margin-left: 90px;
+    width: 150px;
+    height: 300px;
+    padding-left: 15px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+ /* Style for the button with id "subjectButton" */
+#subjectButton {
+  background-color: rgb(115, 7, 115);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#subjectButton:hover {
+  background-color: #570663; /* Darker shade on hover (optional) */
+}
+
+#verbButton {
+  background-color: rgb(77, 175, 217);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#verbButton:hover {
+  background-color: #055f85; /* Darker shade on hover (optional) */
+}
+
+#adjectiveButton {
+  background-color: rgb(19, 167, 56);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#adjectiveButton:hover {
+  background-color: #086f29; /* Darker shade on hover (optional) */
+}
+
+#nounButton {
+  background-color: rgb(226, 146, 16);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#nounButton:hover {
+  background-color: #d86b17; /* Darker shade on hover (optional) */
+}
+
+#placeButton {
+  background-color: rgb(205, 18, 177);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#placeButton:hover {
+  background-color: #6f0a6f; /* Darker shade on hover (optional) */
+}
+
+#speakButton {
+  background-color: rgb(67, 66, 67);  /* Change to your desired background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;       /* Add padding for better appearance */
+  border: none;              /* Remove default border */
+  border-radius: 5px;       /* Rounded corners */
+  font-size: 16px;          /* Adjust font size */
+  cursor: pointer;           /* Change cursor on hover */
+  border-radius: 15px;
+}
+
+
+#speakButton:hover {
+  background-color: #1a1a1a; /* Darker shade on hover (optional) */
+}
+
+
+
+
+
+
+  
+  /* Custom Styles for the Storymaker App */
+  #storyText {
+    margin-top: 100px;
+    font-size: 1.2em; /* Larger font for the story text */
+    margin: 20px auto; /* Center the text */
+    padding: 10px; /* Add padding around the text */
+    background-color: rgb(255, 255, 255); /* White background for readability */
+    border: 1px solid #514f4f;
+    border-radius: 10px; /* Rounded corners */
+    width: 60%; /* Responsive width */
+  }
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Hidden
+     ========================================================================== */
+  
+  [hidden] {
+    display: none;
+  }
+  
