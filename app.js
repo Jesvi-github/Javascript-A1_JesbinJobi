@@ -13,7 +13,7 @@ var subjectArray = ['The turkey', 'Mom', 'Dad', 'The dog', 'My teacher', 'The el
 var verbArray = ['sat on', 'ate', 'danced with', 'saw', 'does not like', 'kissed'];
 var adjectiveArray = ['a funny', 'a scary', 'a goofy', 'a slimy', 'a barking', 'a fat'];
 var nounArray = ['goat', 'monkey', 'fish', 'cow', 'frog', 'bug', 'worm'];
-var placeArray = ['on the moon', 'on the chair', 'in my spaghetti', 'in my soap', 'on the grass', 'in my sh'];
+var placeArray = ['on the moon', 'on the chair', 'in my spaghetti', 'in my soap', 'on the grass', 'in my shoes'];
 
 // Select buttons
 var subjectButton = document.getElementById('subjectButton');
